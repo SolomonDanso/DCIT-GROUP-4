@@ -1,0 +1,11 @@
+.HBox {
+    -fx-background-color: red;
+}
+
+.VBox {
+    -fx-background-color: green;
+}
+
+#sidebar {
+    -fx-background-color: yellow;
+}

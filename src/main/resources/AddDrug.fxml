@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hydottech.AddDrugController">
+    <Label text="Add New Drug"/>
+    <TextField fx:id="drugCode" promptText="Drug Code"/>
+    <TextField fx:id="name" promptText="Name"/>
+    <TextField fx:id="description" promptText="Description"/>
+    <TextField fx:id="stock" promptText="Stock"/>
+    <TextField fx:id="price" promptText="Price"/>
+    <Button text="Add Drug" onAction="#handleAddDrug"/>
+</VBox>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hydottech.ViewDrugsController">
+    <Label text="All Drugs"/>
+    <TableView fx:id="drugTable">
+        <columns>
+            <TableColumn text="Drug Code" fx:id="drugCodeCol"/>
+            <TableColumn text="Name" fx:id="nameCol"/>
+            <TableColumn text="Description" fx:id="descriptionCol"/>
+            <TableColumn text="Stock" fx:id="stockCol"/>
+            <TableColumn text="Price" fx:id="priceCol"/>
+        </columns>
+    </TableView>
+</VBox>
